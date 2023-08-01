@@ -2,11 +2,9 @@ import Navbar from '@/components/navbar/Navbar'
 import './globals.css'
 import { Inter, Roboto, Poppins } from 'next/font/google'
 import Footer from '@/components/footer/Footer'
-import { ThemeProvider } from '../../context/ThemeContext'
+import { ThemeProvider } from '@/context/ThemeContext'
 
 const inter = Inter({ subsets: ['latin'] })
-const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] })
-const poppins = Poppins({ subsets: ['latin'], weight: '400' })
 
 export const metadata = {
   title: 'Create Next App',
